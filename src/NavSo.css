@@ -1,0 +1,38 @@
+.social {
+  height: 6em;
+  box-shadow:
+  0 2.8px 0.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 0.3px rgba(0, 0, 0, 0.048),
+  0 1.5px 1px rgba(0, 0, 0, 0.06),
+  0 2.3px 1.9px rgba(0, 0, 0, 0.072),
+  0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+  0 10px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 1%;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+width: 50%;
+margin: 0 auto;
+
+
+
+
+}
+
+.social button {
+  width: 3em;
+  height: 3em;
+  background-image: url("./assets/images/applicant2.svg");
+  background-size: cover;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  transition: ease-out 0.3s;
+  cursor: pointer;
+}
+
+.social button:hover { 
+  background-image: url("./assets/images/applicant.svg");
+  transition: 0.3s;
+}
+
