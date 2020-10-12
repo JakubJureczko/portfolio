@@ -8,5 +8,10 @@
 
 
 .App-header {
-
+  height: 20em;
+  background-image: url("./assets/images/8.png");
+  background-size: cover;
+  background-position: top;
+  
+  background-color: rgb(232, 223, 240);
 }
