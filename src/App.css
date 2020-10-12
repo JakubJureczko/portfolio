@@ -1,5 +1,11 @@
 .App {
-  
+  height: 100vh;
+  /* background-image: url("./assets/images/8.png");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; */
+ margin: 0 auto;
+ width: 60%;
 }
 
 .App-logo {
@@ -8,10 +14,5 @@
 
 
 .App-header {
-  height: 20em;
-  background-image: url("./assets/images/8.png");
-  background-size: cover;
-  background-position: top;
   
-  background-color: rgb(232, 223, 240);
 }
