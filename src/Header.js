@@ -1,15 +1,17 @@
-import React from 'react'
-import jurand from './assets/images/jurandcar.jpeg'
-import "./Header.css"
- function Header() {
-  
+import React from "react";
+import jurand from "./assets/images/jurandcar.jpeg";
+import "./Header.css";
 
+function Header() {
   return (
-   <div className="nav">
-     <h1>Jakub Jureczko</h1>
-     <p>Web and App developer</p>
-   </div>
-  )
+    <div className="nav-container">
+      <div className="nav">
+        <h1>Jakub Jureczko</h1>
+        <p>Web and App developer</p>
+      </div>
+      <button></button>
+    </div>
+  );
 }
 
-export default Header; 
+export default Header;
