@@ -2,7 +2,7 @@
 
 }
 .project-header {
- width: 75%;
+ 
  margin: 0 auto;
  
 }
@@ -15,7 +15,7 @@ justify-content: center;
 }
 
 .cont {
-  width: 15em;
+  width: 20em;
   box-shadow:
   0 2.8px 0.2px rgba(0, 0, 0, 0.034),
   0 6.7px 0.3px rgba(0, 0, 0, 0.048),
@@ -33,9 +33,8 @@ justify-content: center;
   transition: 2s;
 }
 .sink {
-  width: 15em;
+  width: 20em;
   height: 12em;
-  background-image: url("./assets/images/sink.PNG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,22 +49,37 @@ justify-content: center;
   
   
 }
+
+.sone {
+  background-image: url("./assets/images/sink.PNG");
+}
+.stwo {
+  background-image: url("./assets/images/musicblog.PNG");
+  
+}
+.sthree {
+  background-image: url("./assets/images/cook.PNG");
+}
+.sfour {
+  background-image: url("./assets/images/calculator.PNG");
+
+}
 .sinkdown:hover {
  
-  background-position-y: 11em;
+  background-position-y: 13em;
   transition: 0.8s;
   
 }
 .sinkup:hover {
-  background-position-y: -11em;
+  background-position-y: -12em;
   transition: 0.8s;
 }
 .sinkleft:hover {
-  background-position-x: -20.5em;
+  background-position-x: -21.5em;
   transition: 0.8s;
 }
 .sinkright:hover {
-  background-position-x: 14em;
+  background-position-x: 20em;
   transition: 0.8s;
 }
 

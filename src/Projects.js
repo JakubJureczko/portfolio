@@ -9,7 +9,7 @@ function Projects() {
         <div className="project-container">
           <div className="cont">
             <a href="https://sinkinbeats.com/" target="_blank">
-              <div className="sink sinkdown">
+              <div className="sink sone sinkdown">
                 <p>
                   <b>Sink In Beats</b>
                 </p>
@@ -17,29 +17,50 @@ function Projects() {
                   Web App for making beats. Easy to use and very satisfying.
                 </span>
                 <br></br>
-                <span>React.js</span>
+                <span>React</span>
                 <span>Tone.js</span>
               </div>
             </a>
           </div>
           <div className="cont">
-            <div className="sink sinkup">
+            <a
+              href="https://jakubjureczko.github.io/contentful-blog/"
+              target="_blank"
+            >
+              <div className="sink stwo sinkup">
+                <p>
+                  <b>Music Blog</b>
+                </p>
+                <span>
+                  Listen to music and read about artists. Add new albums
+                  everyday.
+                </span>
+                <br></br>
+                <span>React</span>
+                <span>Contentful</span>
+              </div>
+            </a>
+          </div>
+          <div className="cont">
+            <a
+              href="https://jakubjureczko.github.io/cook-book/"
+              target="_blank"
+            >
+              <div className="sink sthree sinkleft">
               <p>
-                <b>Music Blog</b>
-              </p>
-              <span>
-                Listen to music and read about artists. Add new albums everyday.
-              </span>
-              <br></br>
-              <span>React.js</span>
-              <span>Contentful</span>
-            </div>
+                  <b>Cook Book</b>
+                </p>
+                <span>
+                  Search for an amazing recipes for lunch, dinner and breakfast.
+                </span>
+                <br></br>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </a>
           </div>
           <div className="cont">
-            <div className="sink sinkleft"></div>
-          </div>
-          <div className="cont">
-            <div className="sink sinkright"></div>
+            <div className="sink sfour sinkright"></div>
           </div>
         </div>
       </div>
