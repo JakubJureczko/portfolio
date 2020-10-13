@@ -15,21 +15,21 @@ flex-wrap: wrap;
   justify-self: flex-end;
   background-image: url("./assets/images/jur10.png");
   background-size: cover;
-  background-color: white;
+  background-color: transparent;
   outline: none;
   border: none;
-  box-shadow:
+  /* box-shadow:
   0 2.8px 0.2px rgba(0, 0, 0, 0.034),
   0 6.7px 0.3px rgba(0, 0, 0, 0.048),
   0 1.5px 1px rgba(0, 0, 0, 0.06),
   0 2.3px 1.9px rgba(0, 0, 0, 0.072),
   0 4.8px 3.4px rgba(0, 0, 0, 0.086),
-  0 10px 8px rgba(0, 0, 0, 0.12);
+  0 10px 8px rgba(0, 0, 0, 0.12); */
   border-radius: 2%;
   transition: ease-in-out 0.2s;
   cursor: pointer;
   transition: ease 1.5s;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 /* @keyframes changer {
@@ -52,7 +52,7 @@ flex-wrap: wrap;
   /* background-image: url("./assets/images/jurandnoback.png");
   opacity: 0.95; */
   /* background-position-x: 15em; */
-  opacity: 0.3;
+  opacity: 1;
   transition: 2s;
   box-shadow: none;
 
