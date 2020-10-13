@@ -13,7 +13,7 @@ flex-wrap: wrap;
   margin-left: 2em;
   margin-top: 1em;
   justify-self: flex-end;
-  background-image: url("./assets/images/jur10.png");
+  background-image: url("./assets/images/jurr1234567.png");
   background-size: cover;
   background-color: transparent;
   outline: none;
@@ -29,7 +29,7 @@ flex-wrap: wrap;
   transition: ease-in-out 0.2s;
   cursor: pointer;
   transition: ease 1.5s;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 /* @keyframes changer {
