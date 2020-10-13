@@ -9,7 +9,7 @@ function Projects() {
         <div className="project-container">
           <div className="cont">
             <a href="https://sinkinbeats.com/" target="_blank">
-              <div className="sink sone sinkdown">
+              <div className="sink sone sinkup">
                 <p>
                   <b>Sink In Beats</b>
                 </p>
@@ -46,7 +46,7 @@ function Projects() {
               href="https://jakubjureczko.github.io/cook-book/"
               target="_blank"
             >
-              <div className="sink sthree sinkleft">
+              <div className="sink sthree sinkdown">
               <p>
                   <b>Cook Book</b>
                 </p>
@@ -60,7 +60,7 @@ function Projects() {
             </a>
           </div>
           <div className="cont">
-            <div className="sink sfour sinkright"></div>
+            <div className="sink sfour sinkdown"></div>
           </div>
         </div>
       </div>
