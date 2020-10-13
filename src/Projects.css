@@ -1,0 +1,70 @@
+.projects {
+
+}
+.project-header {
+ width: 75%;
+ margin: 0 auto;
+ 
+}
+.cont {
+  width: 15em;
+  box-shadow:
+  0 2.8px 0.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 0.3px rgba(0, 0, 0, 0.048),
+  0 1.5px 1px rgba(0, 0, 0, 0.06),
+  0 2.3px 1.9px rgba(0, 0, 0, 0.072),
+  0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+  0 10px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 1%;
+ margin-bottom: 2em;
+ transition: ease 3s;
+ 
+}
+.cont:hover {
+  box-shadow: 0 2.8px 0.2px rgba(0, 0, 0, 0.034);
+  transition: 2s;
+}
+.sink {
+  width: 15em;
+  height: 12em;
+  background-image: url("./assets/images/sink.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  border-radius: 2%;
+  cursor: pointer;
+  transition: ease 1.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+.sink:hover {
+ 
+  background-position-y: 11em;
+  transition: 0.8s;
+  
+}
+.sink > * {
+  opacity: 0;
+  transition: ease-out 0.3s;
+ }
+ a {
+  text-decoration: none;
+  outline: none;
+  color:  rgb(27, 27, 27);
+ }
+
+   .sink:hover *  {
+  opacity: 1;
+  transition: 2s;
+  
+} 
+
+span {
+  text-align: center;
+}
+

@@ -10,8 +10,9 @@ flex-wrap: wrap;
 
 .nav-container button {
   width: 15em;
-  height: 15em;
+  height: 12em;
   margin-left: 2em;
+  margin-top: 1em;
   justify-self: flex-end;
   background-image: url("./assets/images/jur10.png");
   background-size: cover;
@@ -28,7 +29,8 @@ flex-wrap: wrap;
   border-radius: 2%;
   transition: ease-in-out 0.2s;
   cursor: pointer;
-  
+  transition: ease 1.5s;
+  opacity: 0.9;
 }
 
 /* @keyframes changer {
@@ -48,9 +50,12 @@ flex-wrap: wrap;
 } */
 
 .nav-container button:hover {
-  background-image: url("./assets/images/jurandnobackbw.png");
-  opacity: 0.95;
-  background-position-y: -1.8em;
+  /* background-image: url("./assets/images/jurandnoback.png");
+  opacity: 0.95; */
+  /* background-position-x: 15em; */
+  opacity: 0.3;
+  transition: 2s;
+  box-shadow: none;
 
   
   /* background-color: rgba(131, 170, 241, 0.555); */
@@ -60,19 +65,33 @@ flex-wrap: wrap;
 
 
 .nav {
-width: 30%;
+width: 50%;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: flex-start;
 flex-wrap: wrap;
-
+/* position: relative; */
 
 
 }
 
+/* .nav::after {
+  content: "";
+  background-image: url("./assets/images/watercolour.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+} */
+
 .nav h1, p {
   
   margin: 0.5em 0em;
-  letter-spacing: 0.1em;
+  
 }
