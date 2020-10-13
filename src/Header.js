@@ -8,6 +8,7 @@ function Header() {
       <div className="nav">
         <h1>Jakub Jureczko</h1>
         <p>Web and App developer</p>
+        <p>Analytical, self-driven and detail-oriented, with a passion for creating elegant, user-friendly solutions.</p>
       </div>
       <button></button>
     </div>

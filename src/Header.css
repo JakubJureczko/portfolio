@@ -1,20 +1,21 @@
 .nav-container {
   margin-top:1em ;
-  height: 12em;
+  height: 15em;
 display: flex;
 flex-direction: row;
 justify-content: center;
+flex-wrap: wrap;
 
 }
 
 .nav-container button {
-  width: 10em;
-  height: 10em;
-  margin-left: 5em;
+  width: 15em;
+  height: 15em;
+  margin-left: 2em;
   justify-self: flex-end;
   background-image: url("./assets/images/jur10.png");
   background-size: cover;
-  
+  background-color: white;
   outline: none;
   border: none;
   box-shadow:
@@ -25,30 +26,53 @@ justify-content: center;
   0 4.8px 3.4px rgba(0, 0, 0, 0.086),
   0 10px 8px rgba(0, 0, 0, 0.12);
   border-radius: 2%;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
   cursor: pointer;
   
 }
 
-.nav-container button:hover {
-  background-image: url("./assets/images/jurandnoback.png");
-  transition: 0.3s;
-  background-position-y: -1.2em;
+/* @keyframes changer {
+  from {
+    opacity: 0.8;
+  }
+  25% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.3;
+  }
  
+  to {
+    opacity: 0;
+  }
+} */
+
+.nav-container button:hover {
+  background-image: url("./assets/images/jurandnobackbw.png");
+  opacity: 0.95;
+  background-position-y: -1.8em;
+
+  
+  /* background-color: rgba(131, 170, 241, 0.555); */
+
   
 }
 
 
 .nav {
-
+width: 30%;
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
 justify-content: flex-start;
-line-height: 0.5em;
+flex-wrap: wrap;
+
+
 
 }
 
-.nav h1 {
-  justify-self: center;
+.nav h1, p {
+  
+  margin: 0.5em 0em;
+  letter-spacing: 0.1em;
 }
