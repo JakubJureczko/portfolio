@@ -31,3 +31,20 @@
 .para2 {
   margin-top: 2em;
 }
+
+  
+
+.card-front {
+  background-image: url("./assets/images/car.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 2em;
+}
+.card-back {
+  background-image: url("./assets/images/mirror5.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 2em;
+}
