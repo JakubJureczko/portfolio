@@ -8,6 +8,26 @@
  width: 50%;
 }
 
+@media screen and (max-width: 1408px) and (min-width: 1172px) {
+  .App {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1172px) and (min-width: 1006px) {
+  .App {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1006px) and (min-width: 880px) {
+  .App {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 880px){
+  .App {
+    width: 98%;
+  }
+}
 .App-logo {
  
 }
