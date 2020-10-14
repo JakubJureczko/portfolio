@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import Navso from "./NavSo";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
       </header>
       <main>
+        <Skills />
         <Projects />
       </main>
       <footer>
