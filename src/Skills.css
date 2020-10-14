@@ -1,0 +1,33 @@
+.skill-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  height: 20em;
+  color: rgb(219, 111, 169);
+  background-color: 	rgba(174, 201, 208, 0.459);
+  box-shadow:
+  0 2.8px 0.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 0.3px rgba(0, 0, 0, 0.048),
+  0 1.5px 1px rgba(0, 0, 0, 0.06),
+  0 2.3px 1.9px rgba(0, 0, 0, 0.072),
+  0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+  0 10px 8px rgba(0, 0, 0, 0.12);
+  margin: 1em;
+  border-radius: 1%;
+}
+
+.para {
+  margin-top: 1em;
+  
+}
+.para2 {
+  margin-top: 2em;
+}

@@ -15,9 +15,10 @@ body {
     background-repeat: no-repeat; */
     
     font-family: "Lato", sans-serif ;
-    color: rgb(27, 27, 27);
+    /* color: rgb(27, 27, 27); */
     position: relative;
     letter-spacing: 0.1em;
+    color: rgb(221, 93, 161);
 }
 
 
