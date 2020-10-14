@@ -28,7 +28,7 @@ flex-wrap: wrap;
   border-radius: 2%;
   
   cursor: pointer;
-  
+  transition: ease 1s;
   opacity: 0.8;
 }
 
@@ -55,7 +55,7 @@ flex-wrap: wrap;
   /* background-position-x: 15em; */
   background-image: url("./assets/images/jurr123456.png");
   opacity: 0.6;
-  transition: 2s;
+  transition: 1s;
   box-shadow: none;
 
   
