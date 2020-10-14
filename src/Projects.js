@@ -65,7 +65,7 @@ function Projects() {
                 <p>
                   <b>Meme Machine</b>
                 </p>
-                <span>Create your won meme. Upload your picture or choose one and have fun.</span>
+                <span>Create your own memes. Upload your picture or choose one and have fun.</span>
                 <br></br>
                 <span>React</span>
               </div>
