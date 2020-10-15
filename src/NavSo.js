@@ -7,19 +7,19 @@ import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 function Navso() {
   return (
     <div className="social">
-      <a href="https://github.com/JakubJureczko" target="_blank"> 
+      <a href="https://github.com/JakubJureczko" target="_blank" > 
         <FontAwesomeIcon className="social-icons" icon={faGithub} size="2x"  /> 
         </a>
-        <a href="https://www.linkedin.com/in/jakub-jureczko" target="_blank"> 
+        <a href="https://www.linkedin.com/in/jakub-jureczko" target="_blank" > 
         <FontAwesomeIcon className="social-icons" icon={faLinkedinIn} size="2x"/> 
         </a>
-        <a href="https://twitter.com/jakub_jureczko" target="_blank"> 
+        <a href="https://twitter.com/jakub_jureczko" target="_blank" > 
         <FontAwesomeIcon className="social-icons" icon={faTwitter} size="2x"/> 
         </a>
-        <a href="https://twitter.com/jakub_jureczko" target="_blank"> 
+        <a href="https://twitter.com/jakub_jureczko" target="_blank" > 
         <FontAwesomeIcon className="social-icons" icon={faEnvelope} size="2x"/> 
         </a>
-        <a href="https://twitter.com/jakub_jureczko" target="_blank"> 
+        <a href="https://twitter.com/jakub_jureczko" target="_blank" > 
         <FontAwesomeIcon className="social-icons" icon={faFileAlt} size="2x"/> 
         </a>
     </div>

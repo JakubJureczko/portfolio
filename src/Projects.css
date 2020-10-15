@@ -28,10 +28,7 @@ justify-content: center;
  transition: ease 3s;
  
 }
-.cont:hover {
-  box-shadow: none;
-  transition: 2s;
-}
+
 .sink {
   width: 20em;
   height: 12em;
@@ -64,24 +61,41 @@ justify-content: center;
   background-image: url("./assets/images/meme.PNG");
 
 }
-.sinkdown:hover {
+
+@media screen and (min-width: 760px) {
+  .sinkdown:hover {
  
-  background-position-y: 13em;
-  transition: 0.8s;
+    background-position-y: 13em;
+    transition: 0.8s;
+    
+  }
+  .sinkup:hover {
+    background-position-y: -12em;
+    transition: 0.8s;
+  }
+  .sinkleft:hover {
+    background-position-x: -21.5em;
+    transition: 0.8s;
+  }
+  .sinkright:hover {
+    background-position-x: 20em;
+    transition: 0.8s;
+  }
   
+  .sink:hover *  {
+    opacity: 1;
+    transition: 3s;
+    
+  } 
+  .cont:hover {
+    box-shadow: none;
+    transition: 2s;
+  }
+  .cont span {
+    display: none;
+  }
 }
-.sinkup:hover {
-  background-position-y: -12em;
-  transition: 0.8s;
-}
-.sinkleft:hover {
-  background-position-x: -21.5em;
-  transition: 0.8s;
-}
-.sinkright:hover {
-  background-position-x: 20em;
-  transition: 0.8s;
-}
+
 
 .sink > * {
   opacity: 0;
@@ -93,11 +107,6 @@ justify-content: center;
   color:  rgb(27, 27, 27);
  }
 
-   .sink:hover *  {
-  opacity: 1;
-  transition: 3s;
-  
-} 
 
 span {
   text-align: center;

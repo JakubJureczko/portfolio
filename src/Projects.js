@@ -8,11 +8,7 @@ function Projects() {
         <h2>Projects:</h2>
         <div className="project-container">
           <div className="cont">
-            <a
-              rel="noopener noreferrer"
-              href="https://sinkinbeats.com/"
-              target="_blank"
-            >
+            <a href="https://sinkinbeats.com/" target="_blank">
               <div className="sink sone sinkup">
                 <p>
                   <b>Sink In Beats</b>
@@ -28,7 +24,6 @@ function Projects() {
           </div>
           <div className="cont">
             <a
-              rel="noopener noreferrer"
               href="https://jakubjureczko.github.io/contentful-blog/"
               target="_blank"
             >
@@ -48,7 +43,6 @@ function Projects() {
           </div>
           <div className="cont">
             <a
-              rel="noopener noreferrer"
               href="https://jakubjureczko.github.io/cook-book/"
               target="_blank"
             >
@@ -66,11 +60,7 @@ function Projects() {
             </a>
           </div>
           <div className="cont">
-            <a
-              rel="noopener noreferrer"
-              href="https://meme-generator-one.vercel.app/"
-              target="_blank"
-            >
+            <a href="https://meme-generator-one.vercel.app/" target="_blank">
               <div className="sink sfour sinkdown">
                 <p>
                   <b>Meme Machine</b>
