@@ -60,6 +60,12 @@ margin: 0 auto;
      
   }
 }
+
+@media screen and (max-width: 760px) {
+    .social-icons {
+      color: rgba(81, 85, 107, 0.658);
+    }
+}
 /* rgba(81, 85, 107, 0.5)  dark */
 /* rgb(205, 165, 243)  purple light*/
 /* rgba(187, 135, 235, 0.8) purple deep */
