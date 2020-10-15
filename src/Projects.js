@@ -25,8 +25,11 @@ function Projects() {
               </div>
             </a>
             <div className="mobile-cont">
-            <button className="mobile-btn mobile-web"></button>
-            <button className="mobile-btn mobile-git"></button>
+            
+             <a href="https://sinkinbeats.com/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+           
+            <a href="https://github.com/JakubJureczko/drum-seq" target="_blank"><button className="mobile-btn mobile-git"></button></a>
+            
             </div>
             
           </div>
@@ -50,8 +53,9 @@ function Projects() {
               </div>
             </a>
             <div className="mobile-cont">
-            <button className="mobile-btn mobile-web"></button>
-            <button className="mobile-btn mobile-git"></button>
+            <a href="https://jakubjureczko.github.io/contentful-blog/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+           
+           <a href="https://github.com/JakubJureczko/contentful-blog" target="_blank"><button className="mobile-btn mobile-git"></button></a>
             </div>
             
           </div>
@@ -74,8 +78,9 @@ function Projects() {
               </div>
             </a>
             <div className="mobile-cont">
-            <button className="mobile-btn mobile-web"></button>
-            <button className="mobile-btn mobile-git"></button>
+            <a href="https://jakubjureczko.github.io/cook-book/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+           
+           <a href="https://github.com/JustinHorn/group-one-cookbook" target="_blank"><button className="mobile-btn mobile-git"></button></a>
             </div>
           </div>
           <div className="cont">
@@ -94,8 +99,9 @@ function Projects() {
               </div>
             </a>
             <div className="mobile-cont">
-            <button className="mobile-btn mobile-web"></button>
-            <button className="mobile-btn mobile-git"></button>
+            <a href="https://meme-generator-one.vercel.app/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+           
+           <a href="https://github.com/JakubJureczko/meme-machine" target="_blank"><button className="mobile-btn mobile-git"></button></a>
             </div>
           </div>
         </div>

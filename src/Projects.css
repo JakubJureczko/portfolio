@@ -160,12 +160,14 @@ span {
   background-size: cover;
   background-position: center;
   opacity: 0.5;
+  cursor: pointer;
 }
 .mobile-git {
 background-image:  url("./assets/images/social-media/git.svg");
 background-size: cover;
 background-position: center;
 opacity: 0.5;
+cursor: pointer;
 }
 .cont {
   box-shadow: none;
