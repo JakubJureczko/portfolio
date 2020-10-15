@@ -22,6 +22,7 @@ function Projects() {
                 <br></br>
                 <span>React</span>
                 <span>Tone.js</span>
+                <a href="https://github.com/JakubJureczko/drum-seq" target="_blank"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
@@ -50,6 +51,7 @@ function Projects() {
                 <br></br>
                 <span>React</span>
                 <span>Contentful</span>
+                <a href="https://github.com/JakubJureczko/contentful-blog" target="_blank"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
@@ -75,6 +77,7 @@ function Projects() {
                 <br></br>
                 <span>CSS</span>
                 <span>JavaScript</span>
+                <a href="https://github.com/JustinHorn/group-one-cookbook" target="_blank"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
@@ -96,6 +99,7 @@ function Projects() {
                 </span>
                 <br></br>
                 <span>React</span>
+                <a href="https://github.com/JakubJureczko/meme-machine" target="_blank"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
