@@ -14,9 +14,13 @@ align-items: center;
 width: 50%;
 margin: 0 auto;
 
+}
 
-
-
+@media screen and (min-width: 2100px) {
+  .social {
+    width: 60%;
+    justify-content: space-around;
+  }
 }
 
 .social button {

@@ -97,6 +97,12 @@ flex-wrap: wrap;
   }
 }
 
+@media screen and (min-width: 2100px) {
+  .nav {
+    width: 30%;
+  }
+}
+
 /* .nav::after {
   content: "";
   background-image: url("./assets/images/watercolour.png");

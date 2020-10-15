@@ -1,5 +1,7 @@
 import React from "react";
 import "./Projects.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Projects() {
   return (
@@ -8,6 +10,7 @@ function Projects() {
         <h2>Projects:</h2>
         <div className="project-container">
           <div className="cont">
+            <p className="mobile-header"><b>Sink In Beats</b></p>
             <a href="https://sinkinbeats.com/" target="_blank">
               <div className="sink sone sinkup">
                 <p>
@@ -21,8 +24,14 @@ function Projects() {
                 <span>Tone.js</span>
               </div>
             </a>
+            <div className="mobile-cont">
+            <button className="mobile-btn mobile-web"></button>
+            <button className="mobile-btn mobile-git"></button>
+            </div>
+            
           </div>
           <div className="cont">
+          <p className="mobile-header"><b>Music Blog</b></p>
             <a
               href="https://jakubjureczko.github.io/contentful-blog/"
               target="_blank"
@@ -40,8 +49,14 @@ function Projects() {
                 <span>Contentful</span>
               </div>
             </a>
+            <div className="mobile-cont">
+            <button className="mobile-btn mobile-web"></button>
+            <button className="mobile-btn mobile-git"></button>
+            </div>
+            
           </div>
           <div className="cont">
+          <p className="mobile-header"><b>Cooking Heroes</b></p>
             <a
               href="https://jakubjureczko.github.io/cook-book/"
               target="_blank"
@@ -58,8 +73,13 @@ function Projects() {
                 <span>JavaScript</span>
               </div>
             </a>
+            <div className="mobile-cont">
+            <button className="mobile-btn mobile-web"></button>
+            <button className="mobile-btn mobile-git"></button>
+            </div>
           </div>
           <div className="cont">
+          <p className="mobile-header"><b>Meme Machine</b></p>
             <a href="https://meme-generator-one.vercel.app/" target="_blank">
               <div className="sink sfour sinkdown">
                 <p>
@@ -73,6 +93,10 @@ function Projects() {
                 <span>React</span>
               </div>
             </a>
+            <div className="mobile-cont">
+            <button className="mobile-btn mobile-web"></button>
+            <button className="mobile-btn mobile-git"></button>
+            </div>
           </div>
         </div>
       </div>
