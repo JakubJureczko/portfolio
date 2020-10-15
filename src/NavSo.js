@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavSo.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 
 function Navso() {

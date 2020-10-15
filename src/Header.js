@@ -1,5 +1,4 @@
 import React from "react";
-import jurand from "./assets/images/jurandcar.jpeg";
 import "./Header.css";
 
 function Header() {
