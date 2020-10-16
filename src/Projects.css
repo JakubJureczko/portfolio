@@ -113,6 +113,9 @@ justify-content: center;
   .mobile-cont {
     display: none;
   }
+  .projects-mobile {
+    display: none;
+  }
 }
 
 
@@ -207,5 +210,11 @@ cursor: pointer;
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 50px 40px rgba(0, 0, 0, 0.12);
+}
+.projects-mobile {
+  text-align: center;
+}
+.projects-normal{
+  display: none;
 }
 }

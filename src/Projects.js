@@ -7,7 +7,8 @@ function Projects() {
   return (
     <div className="projects">
       <div className="project-header">
-        <h2>Projects:</h2>
+        <h2 className="projects-normal">Projects:</h2>
+        <h2 className="projects-mobile">Projects</h2>
         <div className="project-container">
           <div className="cont">
             <p className="mobile-header"><b>Sink In Beats</b></p>

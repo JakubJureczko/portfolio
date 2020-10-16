@@ -4,7 +4,8 @@ import "./Skills.css";
 function Skills() {
   return (
     <div className="skills">
-      <h2>Skills:</h2>
+      <h2 className="skills-normal">Skills:</h2>
+      <h2 className="skills-mobile">Skills</h2>
       <div className="skill-container">
         <div className="card ">
           <span className="card-front"></span>
