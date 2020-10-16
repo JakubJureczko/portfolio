@@ -78,20 +78,20 @@ justify-content: center;
   .sinkdown:hover {
  
     background-position-y: 13em;
-    transition: 0.5s;
+    transition: 0.6s;
     
   }
   .sinkup:hover {
     background-position-y: -12em;
-    transition: 0.5s;
+    transition: 0.6s;
   }
   .sinkleft:hover {
     background-position-x: -21.5em;
-    transition: 0.5s;
+    transition: 0.6s;
   }
   .sinkright:hover {
     background-position-x: 20em;
-    transition: 0.5s;
+    transition: 0.6s;
   }
   
   .sink:hover *  {
