@@ -16,7 +16,7 @@ function Navso() {
         <a href="https://twitter.com/jakub_jureczko" target="_blank" > 
         <FontAwesomeIcon className="social-icons" icon={faTwitter} size="2x"/> 
         </a>
-        <a href="https://twitter.com/jakub_jureczko" target="_blank" > 
+        <a href="mailto:untech.untech@gmail.com" target="_blank" > 
         <FontAwesomeIcon className="social-icons" icon={faEnvelope} size="2x"/> 
         </a>
         <a href="https://twitter.com/jakub_jureczko" target="_blank" > 
