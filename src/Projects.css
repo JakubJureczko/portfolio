@@ -96,7 +96,7 @@ justify-content: center;
   
   .sink:hover *  {
     opacity: 1;
-    transition: 2s;
+    transition: 2.5s;
     
   } 
   .cont:hover {
