@@ -113,11 +113,13 @@ justify-content: center;
   .mobile-cont {
     display: none;
   }
+  
+}
+@media screen and (min-width: 600px) {
   .projects-mobile {
     display: none;
   }
 }
-
 
 .sink > * {
   opacity: 0;
@@ -211,10 +213,13 @@ cursor: pointer;
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 50px 40px rgba(0, 0, 0, 0.12);
 }
-.projects-mobile {
-  text-align: center;
 }
-.projects-normal{
-  display: none;
-}
+
+@media screen and (max-width: 600px) {
+  .projects-mobile {
+    text-align: center;
+  }
+  .projects-normal{
+    display: none;
+  }
 }
