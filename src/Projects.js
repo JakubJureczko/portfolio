@@ -10,7 +10,7 @@ function Projects() {
         <h2 className="projects-normal">Projects:</h2>
         <h2 className="projects-mobile">Projects</h2>
         <div className="project-container">
-          <div className="cont">
+          <div className="cont" rel="preload">
             <p className="mobile-header"><b>Sink In Beats</b></p>
             <a href="https://sinkinbeats.com/" target="_blank">
               <div className="sink sone sinkup">
@@ -35,7 +35,7 @@ function Projects() {
             </div>
             
           </div>
-          <div className="cont">
+          <div className="cont" rel="preload">
           <p className="mobile-header"><b>Music Blog</b></p>
             <a
               href="https://jakubjureczko.github.io/contentful-blog/"
@@ -62,7 +62,7 @@ function Projects() {
             </div>
             
           </div>
-          <div className="cont">
+          <div className="cont" rel="preload">
           <p className="mobile-header"><b>Cooking Heroes</b></p>
             <a
               href="https://jakubjureczko.github.io/cook-book/"
@@ -87,7 +87,7 @@ function Projects() {
            <a href="https://github.com/JustinHorn/group-one-cookbook" target="_blank"><button className="mobile-btn mobile-git"></button></a>
             </div>
           </div>
-          <div className="cont">
+          <div className="cont" rel="preload">
           <p className="mobile-header"><b>Meme Machine</b></p>
             <a href="https://meme-generator-one.vercel.app/" target="_blank">
               <div className="sink sfour sinkdown">
