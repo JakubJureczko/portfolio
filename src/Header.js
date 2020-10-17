@@ -11,7 +11,7 @@ function Header() {
         <div className="trzy"></div>
       </div>
       
-      <button rel="preload"></button>
+      <button></button>
     </div>
   );
 }
