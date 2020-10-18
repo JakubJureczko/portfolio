@@ -15,6 +15,24 @@
   0 50px 40px rgba(0, 0, 0, 0.12);
   display: flex;
 }
+.back-cv {
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url("./assets/images/left-arrow.svg");
+  background-size: cover;
+  padding: 0;
+}
+
+.up-cv {
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url("./assets/images/upcv2.svg");
+  background-size: cover;
+  padding: 0;
+}
+.back-cv:hover {
+  background-image: url("./assets/images/left-arrow2.svg");
+}
 
 .cv-left p {
   margin-top: 0;
@@ -74,6 +92,11 @@
   color: rgba(244, 4, 156, 0.89);
 }
 
+.down-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* .cv-right-info h4 {
   margin: 0em;
   padding-top: 1.2em ;
@@ -122,9 +145,13 @@
     text-align: center;
   }
   
+  
 }
 @media screen and (min-width: 700px) {
   .cv-right h1 {
+    display: none;
+  }
+  .up-cv {
     display: none;
   }
 }

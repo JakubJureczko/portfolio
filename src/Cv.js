@@ -4,13 +4,17 @@ import "./Cv.css";
 
 function Cv() {
   window.scrollTo(0, 0);
+  
+  function handleClick() {
+    window.scrollTo(0, 0);
+  }
   return (
     <div className="cv">
       <div className="cv-shadow">
       <div className="cv-left">
         <div className="cv-left-inside">
         <Link to="/">
-          <p>back</p>
+          <p className="back-cv"></p>
         </Link>
         <h1>JAKUB JURECZKO</h1>
         <h2>PROFILE</h2>
@@ -95,6 +99,12 @@ function Cv() {
           <b>Elektronics and Telecommunication</b>
         </p>
         <br></br>
+        <div className="down-nav">
+        <Link to="/">
+          <p className="back-cv"></p>
+        </Link>
+        <p className="up-cv" onClick={handleClick}></p>
+        </div>
       </div>
       </div>
       <div className="cv-right">
