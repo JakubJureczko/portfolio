@@ -6,6 +6,7 @@ function Cv() {
   window.scrollTo(0, 0);
   return (
     <div className="cv">
+      <div className="cv-shadow">
       <div className="cv-left">
         <div className="cv-left-inside">
         <Link to="/">
@@ -132,6 +133,7 @@ function Cv() {
             <li>Cooking</li>
           </ul>
         </div>
+      </div>
       </div>
     </div>
   );
