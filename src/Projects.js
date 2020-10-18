@@ -1,7 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Projects() {
   return (
@@ -12,7 +10,7 @@ function Projects() {
         <div className="project-container">
           <div className="cont">
             <p className="mobile-header"><b>Sink In Beats</b></p>
-            <a href="https://sinkinbeats.com/" target="_blank">
+            <a href="https://sinkinbeats.com/" target="_blank" rel="noopener noreferrer">
               <div className="sink sone sinkup">
                 <p>
                   <b>Sink In Beats</b>
@@ -23,14 +21,14 @@ function Projects() {
                 <br></br>
                 <span>React</span>
                 <span>Tone.js</span>
-                <a href="https://github.com/JakubJureczko/drum-seq" target="_blank"><button className="cont-btn"></button></a>
+                <a href="https://github.com/JakubJureczko/drum-seq" target="_blank" rel="noopener noreferrer"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
             
-             <a href="https://sinkinbeats.com/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+             <a href="https://sinkinbeats.com/" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-web"></button></a>
            
-            <a href="https://github.com/JakubJureczko/drum-seq" target="_blank"><button className="mobile-btn mobile-git"></button></a>
+            <a href="https://github.com/JakubJureczko/drum-seq" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-git"></button></a>
             
             </div>
             
@@ -39,7 +37,8 @@ function Projects() {
           <p className="mobile-header"><b>Music Blog</b></p>
             <a
               href="https://jakubjureczko.github.io/contentful-blog/"
-              target="_blank"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <div className="sink stwo sinkup">
                 <p>
@@ -52,13 +51,13 @@ function Projects() {
                 <br></br>
                 <span>React</span>
                 <span>Contentful</span>
-                <a href="https://github.com/JakubJureczko/contentful-blog" target="_blank"><button className="cont-btn"></button></a>
+                <a href="https://github.com/JakubJureczko/contentful-blog" target="_blank" rel="noopener noreferrer"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
-            <a href="https://jakubjureczko.github.io/contentful-blog/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+            <a href="https://jakubjureczko.github.io/contentful-blog/" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-web"></button></a>
            
-           <a href="https://github.com/JakubJureczko/contentful-blog" target="_blank"><button className="mobile-btn mobile-git"></button></a>
+           <a href="https://github.com/JakubJureczko/contentful-blog" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-git"></button></a>
             </div>
             
           </div>
@@ -67,6 +66,7 @@ function Projects() {
             <a
               href="https://jakubjureczko.github.io/cook-book/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="sink sthree sinkdown">
                 <p>
@@ -78,18 +78,18 @@ function Projects() {
                 <br></br>
                 <span>CSS</span>
                 <span>JavaScript</span>
-                <a href="https://github.com/JustinHorn/group-one-cookbook" target="_blank"><button className="cont-btn"></button></a>
+                <a href="https://github.com/JustinHorn/group-one-cookbook" target="_blank" rel="noopener noreferrer"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
-            <a href="https://jakubjureczko.github.io/cook-book/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+            <a href="https://jakubjureczko.github.io/cook-book/" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-web"></button></a>
            
-           <a href="https://github.com/JustinHorn/group-one-cookbook" target="_blank"><button className="mobile-btn mobile-git"></button></a>
+           <a href="https://github.com/JustinHorn/group-one-cookbook" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-git"></button></a>
             </div>
           </div>
           <div className="cont">
           <p className="mobile-header"><b>Meme Machine</b></p>
-            <a href="https://meme-generator-one.vercel.app/" target="_blank">
+            <a href="https://meme-generator-one.vercel.app/" target="_blank" rel="noopener noreferrer">
               <div className="sink sfour sinkdown">
                 <p>
                   <b>Meme Machine</b>
@@ -100,13 +100,13 @@ function Projects() {
                 </span>
                 <br></br>
                 <span>React</span>
-                <a href="https://github.com/JakubJureczko/meme-machine" target="_blank"><button className="cont-btn"></button></a>
+                <a href="https://github.com/JakubJureczko/meme-machine" target="_blank" rel="noopener noreferrer"><button className="cont-btn"></button></a>
               </div>
             </a>
             <div className="mobile-cont">
-            <a href="https://meme-generator-one.vercel.app/" target="_blank"><button className="mobile-btn mobile-web"></button></a>
+            <a href="https://meme-generator-one.vercel.app/" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-web"></button></a>
            
-           <a href="https://github.com/JakubJureczko/meme-machine" target="_blank"><button className="mobile-btn mobile-git"></button></a>
+           <a href="https://github.com/JakubJureczko/meme-machine" target="_blank" rel="noopener noreferrer"><button className="mobile-btn mobile-git"></button></a>
             </div>
           </div>
         </div>

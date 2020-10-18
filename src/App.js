@@ -4,13 +4,6 @@ import Header from "./Header";
 import Navso from "./NavSo";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Cv from "./Cv"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
 function App() {
   return (

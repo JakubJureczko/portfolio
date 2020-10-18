@@ -8,16 +8,16 @@ import { Link } from "react-router-dom";
 function Navso() {
   return (
     <div className="social">
-      <a href="https://github.com/JakubJureczko" target="_blank" > 
+      <a href="https://github.com/JakubJureczko" target="_blank" rel="noopener noreferrer" > 
         <FontAwesomeIcon className="social-icons" icon={faGithub} size="2x"  /> 
         </a>
-        <a href="https://www.linkedin.com/in/jakub-jureczko" target="_blank" > 
+        <a href="https://www.linkedin.com/in/jakub-jureczko" target="_blank" rel="noopener noreferrer" > 
         <FontAwesomeIcon className="social-icons" icon={faLinkedinIn} size="2x"/> 
         </a>
-        <a href="https://twitter.com/jakub_jureczko" target="_blank" > 
+        <a href="https://twitter.com/jakub_jureczko" target="_blank" rel="noopener noreferrer" > 
         <FontAwesomeIcon className="social-icons" icon={faTwitter} size="2x"/> 
         </a>
-        <a href="mailto:untech.untech@gmail.com" target="_blank" > 
+        <a href="mailto:untech.untech@gmail.com" target="_blank" rel="noopener noreferrer" > 
         <FontAwesomeIcon className="social-icons" icon={faEnvelope} size="2x"/> 
         </a>
          <Link to="/cv">
