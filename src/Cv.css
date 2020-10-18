@@ -3,29 +3,101 @@
   margin: 0 auto;
   display: flex;
   padding: 2em 0;
- 
+
 }
+
+
 .cv-left p {
   margin-top: 0;
 }
 .cv-left {
-  background-color: rgba(227, 221, 240, 0.863); 
+  background-color: rgba(255, 255, 255, 0.9); 
   width: 70%;
-  border: 2px solid black;
- 
+  text-align: justify;
+ border-right: 2px solid rgba(244, 4, 156, 0.2);
+}
+.cv-left-inside {
+  width: 96%;
+  margin: 0 auto;
+}
+.left-marg {
+  margin-left: 1.5em;
 }
 .cv-pic {
   height: 13em;
+ 
   background-image: url("./assets/images/jurr1234567.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   opacity: 0.8;
-  border: 2px solid black;
+  background-repeat: no-repeat;
+  background-color: transparent;
   
   
 }
 .cv-right {
   width: 30%;
-  border: 2px solid black;
+  /* background-color: rgba(227, 221, 240, 0.863);  */
+  background-color: rgba(240, 236, 248, 0.9);
+  
+  
+}
+.first {
+  padding-top: 1.5em;
+  margin-top: 0;
+}
+
+.cv-right-info {
+ width: 96%;
+ margin: 0 auto;
+ /* border-left: 2px solid rgba(244, 4, 156, 0.2);
+ border-bottom: 2px solid rgba(244, 4, 156, 0.2);
+ border-top: 2px solid rgba(244, 4, 156, 0.2); */
+ 
+  
+}
+.para {
+  text-align: center;
+}
+/* .cv-right-info h4 {
+  margin: 0em;
+  padding-top: 1.2em ;
+} */
+@media screen and (max-width: 1408px) and (min-width: 1172px) {
+  .cv {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1172px) and (min-width: 1006px) {
+  .cv {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1006px) and (min-width: 880px) {
+  .cv {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 880px){
+  .cv {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cv {
+    flex-wrap: wrap-reverse;
+  }
+  .cv-left {
+    width: 100%;
+  }
+  .cv-right{
+    width: 100%;
+    
+  }
+  .left-marg {
+    margin-left: 0em;
+    text-align: center;
+  }
   
 }
