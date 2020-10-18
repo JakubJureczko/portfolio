@@ -16,10 +16,12 @@
  
 }
 .cv-pic {
-  height: 15em;
-  background-image: url("./assets/images/jurandcar.jpeg");
-  background-position: top;
+  height: 13em;
+  background-image: url("./assets/images/jurr1234567.png");
+  background-position: center;
   background-size: cover;
+  opacity: 0.8;
+  border: 2px solid black;
   
   
 }

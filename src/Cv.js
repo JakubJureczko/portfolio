@@ -29,7 +29,7 @@ function Cv() {
         <li>Creating new products while keeping the image and brand values of the business in mind and taking ownership of quality control</li>
         <li>Problem solving and putting customer’s satisfaction first</li>
       </ul>
-      <p>This braced me with the understanding of what it means to work in a growing company including changes in team size,
+      <p><b>Achievements: </b>This braced me with the understanding of what it means to work in a growing company including changes in team size,
 adjustments in processes and efficiency and flexibility in taking on new tasks.
 </p>
       </div>
