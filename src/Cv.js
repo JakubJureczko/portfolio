@@ -13,9 +13,11 @@ function Cv() {
       <div className="cv-shadow">
       <div className="cv-left">
         <div className="cv-left-inside">
+        <div className="top-nav-back">
         <Link to="/">
-          <p className="back-cv"></p>
+          <p className="back-cv top-cv"></p>
         </Link>
+        </div>
         <h1>JAKUB JURECZKO</h1>
         <h2>PROFILE</h2>
         <p>
@@ -108,7 +110,9 @@ function Cv() {
       </div>
       </div>
       <div className="cv-right">
-        <div className="cv-pic"></div>
+        <div className="cv-pic">
+        <p className="back-cv top-cv-mobile"></p>
+        </div>
         <h1>JAKUB JURECZKO</h1>
         <div className="cv-right-info">
           <p className="first para"><b>PERSONAL SKILLS:</b></p>

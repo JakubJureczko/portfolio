@@ -21,6 +21,13 @@
   background-image: url("./assets/images/left-arrow.svg");
   background-size: cover;
   padding: 0;
+  cursor: pointer;
+  display: flex;
+}
+.top-nav-back {
+  display: flex;
+  margin-bottom: -1em;
+  margin-top: 0.4em;
 }
 
 .up-cv {
@@ -144,6 +151,17 @@
     color: rgb(94, 71, 139);
     text-align: center;
   }
+  .top-cv {
+    display: none;
+   
+  }
+  .cv {
+    padding-top: 0em;
+  }
+  .top-cv-mobile {
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+  }
   
   
 }
@@ -152,6 +170,9 @@
     display: none;
   }
   .up-cv {
+    display: none;
+  }
+  .top-cv-mobile {
     display: none;
   }
 }
