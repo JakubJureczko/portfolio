@@ -1,0 +1,30 @@
+.cv {
+  
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  padding: 2em 0;
+ 
+}
+.cv-left p {
+  margin-top: 0;
+}
+.cv-left {
+  background-color: rgba(240, 248, 255, 0.733);
+  width: 70%;
+  border: 2px solid black;
+ 
+}
+.cv-pic {
+  height: 15em;
+  background-image: url("./assets/images/jurandcar.jpeg");
+  background-position: top;
+  background-size: cover;
+  
+  
+}
+.cv-right {
+  width: 30%;
+  border: 2px solid black;
+  
+}
