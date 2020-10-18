@@ -135,6 +135,7 @@
   }
   .cv-left {
     width: 100%;
+    border-right: none;
   }
   .cv-right{
     width: 100%;

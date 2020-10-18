@@ -111,7 +111,9 @@ function Cv() {
       </div>
       <div className="cv-right">
         <div className="cv-pic">
+        <Link to="/">
         <p className="back-cv top-cv-mobile"></p>
+        </Link>
         </div>
         <h1>JAKUB JURECZKO</h1>
         <div className="cv-right-info">
