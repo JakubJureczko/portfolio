@@ -65,13 +65,15 @@
  /* border-left: 2px solid rgba(244, 4, 156, 0.2);
  border-bottom: 2px solid rgba(244, 4, 156, 0.2);
  border-top: 2px solid rgba(244, 4, 156, 0.2); */
- 
-  
+}
+.cv-left h1 {
+  color: rgb(94, 71, 139);
 }
 .para {
   text-align: center;
   color: rgba(244, 4, 156, 0.89);
 }
+
 /* .cv-right-info h4 {
   margin: 0em;
   padding-top: 1.2em ;
@@ -112,5 +114,18 @@
     margin-left: 0em;
     text-align: center;
   }
+  .cv-left h1 {
+    display: none;
+  }
+  .cv-right h1 {
+    color: rgb(94, 71, 139);
+    text-align: center;
+  }
   
 }
+@media screen and (min-width: 700px) {
+  .cv-right h1 {
+    display: none;
+  }
+}
+

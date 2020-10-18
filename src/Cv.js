@@ -12,6 +12,7 @@ function Cv() {
         <Link to="/">
           <p>back</p>
         </Link>
+        <h1>JAKUB JURECZKO</h1>
         <h2>PROFILE</h2>
         <p>
           Analytical, self-driven and detail-oriented Web Developer with a
@@ -98,7 +99,7 @@ function Cv() {
       </div>
       <div className="cv-right">
         <div className="cv-pic"></div>
-
+        <h1>JAKUB JURECZKO</h1>
         <div className="cv-right-info">
           <p className="first para"><b>PERSONAL SKILLS:</b></p>
           <ul>
