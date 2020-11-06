@@ -21,6 +21,7 @@
   background-image: url("./assets/images/left-arrow.svg");
   background-size: cover;
   padding: 0;
+  opacity: 0.8;
   cursor: pointer;
   display: flex;
 }
@@ -38,7 +39,9 @@
   padding: 0;
 }
 .back-cv:hover {
-  background-image: url("./assets/images/left-arrow2.svg");
+  opacity: 1;
+
+
 }
 
 .cv-left p {
